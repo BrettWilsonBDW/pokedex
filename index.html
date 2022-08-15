@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokedex</title>
+
+        <link rel="stylesheet" href="style.css">
+        <!-- <script defer src="script.js"></script> -->
+    </head>
+
+    <body>
+        <span id="welcome"><h1>Welcome to Brett's pokedex site see the pokedex list and cards below.</h1></span>
+        <div id="content-box">
+            <!-- Left Side, display pokemon info -->
+            <div id="pokemon-info">
+                <span id="pokiname"><strong>BULBASAUR</strong></span>
+                <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png">
+                <div id="pokemon-types">
+                    <span class="type-box grass">GRASS</span><span class="type-box poison">POISON</span>
+                </div>
+                <div id="pokemon-description">The seed on its <br> back is filled <br> with nutrients. The seed grows <br> steadily larger as <br> its body grows.</div>
+            </div>
+            <!-- Right side, display pokemon list -->
+            <div id="pokemon-list">
+                <label id="amtlabel">Search by name, id or list by amount.</label>
+                <div class="text-center">
+                    <input type="text" id="textbox"><br>
+                    <button type="button" id="search" class="buttons">Search</button><br>
+                    <button type="button" id="listButton" class="buttons">List</button><br>
+                    <button type="button" id="randomButton"  class="buttons">Random</button><br>
+                    <button type="button" id="clearButton" class="buttons">Clear</button><br>
+                </div>
+                <div class="under-center">
+                    <button type="button" id="searchType" class="buttons">Search type</button><br>
+                    <button type="button" id="sortButton" class="buttons">List Inverse</button><br>
+                    <button type="button" id="sortalphbet" class="buttons">List a-z</button><br>
+                    <button type="button" id="sortalphbetReverse" class="buttons">List z-a</button><br>
+                    <button type="button" id="clearPageButton" class="buttons">Reset</button><br>
+                    <!-- <button type="button" id="test" class="buttons">test</button><br> -->
+                </div>
+            </div>
+        </div>
+        <div id="card">
+        </div>
+        <script src="script.js"></script> <!--don't forget to put the SCRIPT AT THE BOTTOM-->
+    </body>
+</html>

@@ -2,11 +2,15 @@
 // brett.david.wilson@outlook.com
 
 
+// please note a lot of comments are just me talking to myself github pages forces a repo to be public so please be kind if anyone ever reads this stuff.  
+
 // global variable's
 
 var pokedex = {}; // {1 : {"name" : "bulbsaur", "img" : url, "type" : ["grass", "poison"], "desc" : "...."} }
 // also note we dont pass pokedex anywhere but we can use it everywhere as it is var
 
+
+// test function for the test button
 
 // document.getElementById("test").onclick = async function(){
 
@@ -129,10 +133,6 @@ document.getElementById("sortalphbet").onclick = async function(){
         listMaker(pokiArr[srtCtr])
         
     }
-
-
-    
-
 }
 
 
@@ -237,9 +237,6 @@ async function listPokemon(number) {
     // makes the items on the side list 
 
     let listMaker = async function(num) {
-        
-
-    
 
         await getPokemon(num);
 
@@ -268,9 +265,6 @@ async function listPokemon(number) {
         
         clearALL()
 
-
-
-
             typePokemon = await getPokemontype(num)
 
             // console.log(typePokemon)
@@ -288,17 +282,10 @@ async function listPokemon(number) {
 
                 // console.log(typePokemonName)
     
-                listMaker(typePokemonName)
-                
+                listMaker(typePokemonName)                
 
             }
 
-
-
-
-            
-
-        // }
     }
 
     
@@ -331,8 +318,6 @@ async function listPokemon(number) {
     
         // console.log(num)/
     }
-
-
 
 
     // function to change and show the pokimone displayed when clicked is called
@@ -401,9 +386,7 @@ async function listPokemon(number) {
     }
 
 
-// functions to clear the whole array of 151 pokimone
-
-
+// function to clear the whole array of 151 pokimone
 
 async function clearALL() {
 
@@ -462,8 +445,6 @@ const pokemoneMain = async (num) => {
         console.log(pokemonArray)
 
 
-
-
         for (let ii = 0; ii < num; ii++) {
             
             await listMaker(pokemonArray[ii]["id"])
@@ -477,7 +458,6 @@ const pokemoneMain = async (num) => {
 
 (async () => {
     
-    
         console.log('getting pokemon!')
         let pokemonIndex = await getPokemonIndex(151)
         let pokemonArray = await getDetailedPokemonArray(pokemonIndex)
@@ -486,14 +466,11 @@ const pokemoneMain = async (num) => {
         console.log(pokemonArray)
 
 
-
-
         for (let ii = 0; ii < 151; ii++) {
             
             await listMaker(pokemonArray[ii]["id"])
 
         }
-
 
 })()
 

@@ -405,7 +405,8 @@ async function clearALL() {
 // promise functions
 
 const getPokemonIndex = async (limit) => {
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}`)
+    // const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}`)
+    const response = await fetch(`pokemon.json`)
     const data = await response.json()
     return data.results
 }

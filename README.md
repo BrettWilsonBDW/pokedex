@@ -5,5 +5,5 @@ Fun collage project altho my understanding of JS has grown since but it is still
 
 GitHub Pages link for this repo https://dev.brettdwilson.com/pokedex
 
-credit https://youtu.be/dVtnFH4m_fE for helping me understand fetch and basic styling.
+Or https://brettwilsonbdw.github.io/pokedex as a backup.
 

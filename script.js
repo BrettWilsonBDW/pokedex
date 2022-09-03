@@ -1,6 +1,7 @@
 // Brett Wilson 
 // brett.david.wilson@outlook.com
 
+// credit https://youtu.be/dVtnFH4m_fE for helping me understand fetch and basic styling.
 
 // please note a lot of comments are just me talking to myself github pages forces a repo to be public so please be kind if anyone ever reads this stuff.  
 

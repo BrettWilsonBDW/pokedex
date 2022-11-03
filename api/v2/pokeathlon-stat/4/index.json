@@ -1,0 +1,31 @@
+{
+    "affecting_natures": {
+        "decrease": [],
+        "increase": []
+    },
+    "id": 4,
+    "name": "stamina",
+    "names": [
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Endurance"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Firmeza"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Stamina"
+        }
+    ]
+}

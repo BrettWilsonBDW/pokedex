@@ -1,0 +1,34 @@
+{
+    "id": 9,
+    "locations": [],
+    "main_generation": null,
+    "name": "hisui",
+    "names": [
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Hisui"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Hisui"
+        }
+    ],
+    "pokedexes": [
+        {
+            "name": "hisui",
+            "url": "/api/v2/pokedex/30/"
+        }
+    ],
+    "version_groups": [
+        {
+            "name": "legends-arceus",
+            "url": "/api/v2/version-group/24/"
+        }
+    ]
+}
